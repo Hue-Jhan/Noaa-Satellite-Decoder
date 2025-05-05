@@ -10,5 +10,6 @@ The materials i used are:
 
 # 💻 Code
 The code takes the wav recording file, builds an image out of it, and enhances it to make it look better. 
-First we takes the wav file and turns it into 200800hz format if it isn't already. Then
+- First we take the wav file and turns it into 200800hz format if it isn't already.
+- Then
 
