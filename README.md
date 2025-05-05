@@ -6,9 +6,9 @@ The materials i used are:
 - RTL SDR v4, or any other sdr receiver that operates at 137mhz; <img src="media/sdr" align="right" width="300">
 - V-Dipole antenna, or any other antenna that recieves at uhf/vhf; <img src="media/antenna" align="right" width="300">
 - Sdrpp software, or any other software that allows you to record incoming signals and save them in wav 16-bit 20800hz file format.
-- (optional) Satdump software, to entirely replace my code.
+- (optional) Satdump software, if you want to entirely replace my code.
 
 # 💻 Code
-The code
-This code firstly takes the wav file and turns it into 200800hz format if it isn't already. Then
+The code takes the wav recording file, builds an image out of it, and enhances it to make it look better. 
+First we takes the wav file and turns it into 200800hz format if it isn't already. Then
 
