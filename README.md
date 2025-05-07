@@ -11,10 +11,12 @@ The materials i used are: <img src="media/sdr-antenna.jpg" align="right" width="
 # 💻 Code
 
 ### Parsing data from the wav 16bit recording: <img src="media/noaa-img1.jpg" align="right" width="400">
-- First we take the wav file and resample it into 200800hz format if it isn't already;
-- Then we modfify it to correct the signal, first we apply the hilbert transformaion for the iq, then we demodulate it to make it suitable for image representation;
-- Then we syncronize the data to detect the start of each row, and start searching for rows;
-- After filtering out the rows with a wrong lenght we stack them into a 2d image;
+- First we take the wav file and resample it into 200800hz format;
+- Then we modfify it to correct the signal:
+- First we apply the hilbert transformaion for the iq;
+- Then we demodulate it to make it suitable for image representation;
+- Later we syncronize the data to detect the start of each row, and start searching for rows;
+- After filtering out the ones with a wrong lenght we stack them into a 2d image;
 - Then we display the image (a small part is cut out for error handling);
 - If upgraded through color correction, the image will look like the one on the right.
 
