@@ -20,9 +20,7 @@ In order to do it plug the sdr radio you have in your pc, in my case i used a rt
 
 The sdr is plugged into a v-dipole antenna which aims at the sky, the antenna must have no obstacles in a 360° view, the sky view must be clean, no trees or metallic objects. 
 
-Once all is set you need to wait for the satellite to pass, i will soon upload a code which displays the next passes of a satellite of your choice (yes i dislike gpredict and ion wanna have 10 n2yo.com tabs open).
-
-Here's an example of the sdrpp software receiving signals, this sdrpp image is of an old version. Choose the opions: Audio, Wav, Int-16, Stream radio, ignore silence.
+Once all is set you need to wait for the satellite to pass, i will soon upload a code which displays the next passes of a satellite of your choice (yes i dislike gpredict and ion wanna have 10 n2yo.com tabs open). Here's an example of the sdrpp software receiving signals, this sdrpp image is of an old version. Choose the opions: Audio, Wav, Int-16, Stream radio, ignore silence.
 
 # 💻 Code 
 
