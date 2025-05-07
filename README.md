@@ -38,8 +38,7 @@ Once all is set you need to wait for the satellite to pass, i will soon upload a
 Once obtained the image you can enhance it with softwares like Satdump, i trie making my own enhancer but i don't really understand how Noaa rgb composites work nor how satdump does it, i tried lots of different rgb composites combinations, added mcir uncalibrated version, fake colors based on the position of the satellite but failed every time... best i could do was a green version of the raw_sync.png you get by default : (
 
 ### Tracking the satellite: <img src="media/noaa-map.png" align="left" width="300">
-Once you enhance the image you also receive a dataset.json file which contains useful data on the satellite. 
-
+  - Once you enhance the image you also receive a dataset.json file which contains useful data on the satellite. 
   - First we collect all the json files containing info on the received signals;
   - Second we define info such as color and name for each satellite, and we start creating the image;
   - For each dataset we extract the data of the satellite and upload it onto the image;
