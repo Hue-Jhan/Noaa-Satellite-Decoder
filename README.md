@@ -11,7 +11,7 @@ The materials i used are: <img src="media/sdr-antenna.jpg" align="right" width="
 - Sdrpp software, or any other software that allows you to record incoming signals and save them in wav 16-bit file format.
 - (optional) Satdump software, if you want to entirely replace my code : (
 
-# Receiving singals
+### Receiving signals
  <img src="media/sdrpp.jpg" align="right" width="500">
 First you need to record the signal using any free software (baseband or audio, 16-bit wav format) and upload the file in the same directory as this code's.
 
