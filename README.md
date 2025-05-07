@@ -24,8 +24,8 @@ Once all is set you need to wait for the satellite to pass, i will soon upload a
 
 # 💻 Code 
 
-### Parsing data from the wav 16bit recording: <img src="media/noaa-img1.jpg" align="right" width="400">
-- First we resample the wav file into 200800hz format;
+### Parsing data from the wav 16bit recording:
+- First we resample the wav file into 200800hz format; <img src="media/noaa-img1.jpg" align="right" width="400">
 - Then we modfify it to correct the signal:
 - We apply the hilbert transformaion for the iq;
 - And we demodulate it to make it suitable for a png;
@@ -35,7 +35,7 @@ Once all is set you need to wait for the satellite to pass, i will soon upload a
 - If upgraded through color correction, the image will look like the one on the right.
 
 ### Enhancing the image: 
-<img src="media/noaa-img2.jpg" align="right" width="600">
+<img src="media/noaa-img2.jpg" align="right" width="500">
 Once obtained the image you can enhance it with softwares like Satdump, i trie making my own enhancer but i don't really understand how Noaa rgb composites work nor how satdump does it, i tried lots of different rgb composites combinations, added mcir uncalibrated version, fake colors based on the position of the satellite but failed every time... best i could do was a green version of the raw_sync.png you get by default : (
 
 ### Tracking the satellite: <img src="media/noaa-map.png" align="left" width="300">
