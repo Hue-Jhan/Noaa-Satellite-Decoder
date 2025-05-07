@@ -11,9 +11,12 @@ The materials i used are: <img src="media/sdr-antenna.jpg" align="right" width="
 # 💻 Code
 
 ### Parsing data from the wav 16bit recording: <img src="media/noaa-img1.jpg" align="right" width="400">
-- First we take the wav file and turns it into 200800hz format if it isn't already;
-- Then
-- 
+- First we take the wav file and resample it into 200800hz format if it isn't already;
+- Then we modfify it to correct the signal, first we apply the hilbert transformaion for the iq, then we demodulate it to make it suitable for image representation;
+- Then we syncronize the data to detect the start of each row, and start searching for rows;
+- After filtering out the rows with a wrong lenght we stack them into a 2d image;
+- Then we display the image (a small part is cut out for error handling);
+- If upgraded through color correction, the image will look like the one on the right.
 
 ### Enhancing the image: <img src="media/noaa-img2.jpg" align="right" width="600">
 Once obtained the image you can enhance it with softwares like Satdump, i tried making my own enhancer but failed. I don't really understand how Noaa rgb composites work, ion even know how satdump does it, i tried lots of different rgb composite, added mcir uncalibrated version, fake colors based on the position of the satellite but failed every time... best i could do was a green version of the raw_sync.png you get by default : (
