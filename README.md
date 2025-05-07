@@ -41,5 +41,5 @@ Once obtained the image you can enhance it with softwares like Satdump, i trie m
   - Once you enhance the image you also receive a dataset.json file which contains useful data on the satellite. 
   - First we collect all the json files containing info on the received signals;
   - Second we define info such as color and name for each satellite, and we start creating the image;
-  - For each dataset we extract the satellite data and upload it on the image;
+  - For each dataset we extract the data and upload it onto the image;
   - Finally we adjust the timezone, pin the satellite trajectory on the map and display the image.
