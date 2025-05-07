@@ -15,13 +15,13 @@ The materials i used are: <img src="media/sdr-antenna.jpg" align="right" width="
 - Then
 - 
 
-### Enhancing the image:
+### Enhancing the image: <img src="media/noaa-img2.jpg" align="right" width="600">
 Once obtained the image you can enhance it with softwares like Satdump, i tried making my own enhancer but failed. I don't really understand how Noaa rgb composites work, ion even know how satdump does it, i tried lots of different rgb composite, added mcir uncalibrated version, fake colors based on the position of the satellite but failed every time... best i could do was a green version of the raw_sync.png you get by default : (
 Anyways once you enhance the image you also receive a dataset.json file which contains useful data on the satellite. 
 
-### Tracking the satellite: <img src="media/noaa_map3.png" align="left" width="300">
-- First we collect all the json files containing info on the tracked images;
--
--
+### Tracking the satellite: <img src="media/noaa-map.png" align="left" width="300">
+  - First we collect all the json files containing info on the tracked images;
+  -
+  -
   
 
