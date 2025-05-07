@@ -34,7 +34,8 @@ Once all is set you need to wait for the satellite to pass, i will soon upload a
 - Finally we stack them into a 2d image and we display it (a small part is cut out for error handling);
 - If upgraded through color correction, the image will look like the one on the right.
 
-### Enhancing the image: <img src="media/noaa-img2.jpg" align="right" width="600">
+### Enhancing the image: 
+<img src="media/noaa-img2.jpg" align="right" width="600">
 Once obtained the image you can enhance it with softwares like Satdump, i trie making my own enhancer but i don't really understand how Noaa rgb composites work nor how satdump does it, i tried lots of different rgb composites combinations, added mcir uncalibrated version, fake colors based on the position of the satellite but failed every time... best i could do was a green version of the raw_sync.png you get by default : (
 
 ### Tracking the satellite: <img src="media/noaa-map.png" align="left" width="300">
